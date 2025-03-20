@@ -1,0 +1,12 @@
+.textoSaludado
+{
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.textoResaltado
+{
+    color: red;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}

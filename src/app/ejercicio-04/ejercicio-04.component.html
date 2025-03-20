@@ -1,0 +1,8 @@
+<p *ngIf="isServerRunning">
+    <span *ngIf="isLoggedIn; else loggedOut">Welcome back, Friend!</span>
+    <ng-template #loggedOut>
+      <p>You must log in...</p>
+    </ng-template>
+  </p>
+  
+  <p *ngIf="!isServerRunning">The website is offline</p>

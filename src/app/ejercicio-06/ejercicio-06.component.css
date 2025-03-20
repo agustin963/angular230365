@@ -1,0 +1,39 @@
+/* ejercicio-06.component.css */
+
+/* Estilo para el área editable */
+div[contentEditable] {
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 100px;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);  /* Fondo degradado suave */
+    border-radius: 8px;  /* Bordes redondeados */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el botón */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Fondo general de la página */
+  :host {
+    display: block;
+    background: #00b3cb;  /* Fondo claro con un color suave */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 10000px;
+    margin: 50px auto;
+  }
+  

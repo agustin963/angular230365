@@ -1,0 +1,12 @@
+.message-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #6293b1;
+  }
+  
+  .message {
+    font-weight: bold;
+    color: blue;
+  }

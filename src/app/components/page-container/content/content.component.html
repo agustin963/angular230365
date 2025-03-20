@@ -1,0 +1,22 @@
+
+
+<div *ngIf="isLoggedIn" class="p-4">
+  <div *ngIf="exerciseName" class="bg-white p-6 rounded-lg shadow-md">
+    <ng-container [ngSwitch]="exerciseName">
+      <app-ejercicio-01 *ngSwitchCase="'Ejercicio 01'"></app-ejercicio-01>
+      <app-ejercicio-02 *ngSwitchCase="'Ejercicio 02'"></app-ejercicio-02>
+      <app-ejercicio-03 *ngSwitchCase="'Ejercicio 03'"></app-ejercicio-03>
+      <app-ejercicio-04 *ngSwitchCase="'Ejercicio 04'"> </app-ejercicio-04>
+      <app-ejercicio-05 *ngSwitchCase="'Ejercicio 05'"></app-ejercicio-05>
+      <app-ejercicio-06 *ngSwitchCase="'Ejercicio 06'"></app-ejercicio-06>
+      <app-ejercicio-07 *ngSwitchCase="'Ejercicio 07'"></app-ejercicio-07>
+      <app-ejercicio-08 *ngSwitchCase="'Ejercicio 08'"></app-ejercicio-08>
+      <app-ejercicio-09 *ngSwitchCase="'Ejercicio 09'"></app-ejercicio-09>
+      <app-ejercicio-10 *ngSwitchCase="'Ejercicio 10'"></app-ejercicio-10>
+    </ng-container>
+  </div>
+  <div *ngIf="!exerciseName" class="text-center">
+    <p>Selecciona un ejercicio en el panel  .</p>
+  </div>
+  <router-outlet></router-outlet> 
+</div>

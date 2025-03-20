@@ -1,0 +1,10 @@
+footer {
+    min-height: 50px; /* Asegura que el footer tenga una altura mínima */
+  }
+  
+
+  .app-content {
+    min-height: 100%;
+    width: 100%;
+  }
+  

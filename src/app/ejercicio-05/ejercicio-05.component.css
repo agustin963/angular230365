@@ -1,0 +1,24 @@
+.container {
+    background-color: #f0f8ff;  /* Fondo azul claro */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;  /* Color de título */
+    font-weight: bold;
+  }
+  
+  li, p {
+    color: #555;  /* Color de texto de los items y usuarios */
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
